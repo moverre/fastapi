@@ -9,13 +9,13 @@ from .config import settings
 
 app = FastAPI()
 
-origins = [
-    "http://localhost.fritz.box",
-    "https://localhost.fritz.box",
-    "http://localhost",
-    "http://fritz.box",
-    "http://localhost:8080",
-]
+# origins = [
+#     "http://localhost.fritz.box",
+#     "https://localhost.fritz.box",
+#     "http://localhost",
+#     "http://fritz.box",
+#     "http://localhost:8080",
+# ]
 
 origins = ["*"]
 
